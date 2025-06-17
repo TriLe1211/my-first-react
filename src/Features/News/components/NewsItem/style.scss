@@ -1,0 +1,26 @@
+.news-item {
+  &>.news-image {
+    position: relative;
+
+    &>.img-overlay {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 190px;
+      height: 190px;
+      background-color: rgba(0, 0, 0, 0.3);
+      border-radius: 0.5rem;
+    }
+
+    &>img {
+      width: 190px;
+      height: 190px;
+      border-radius: 0.5rem;
+    }
+  }
+
+  &>.news-title {
+    font-weight: bold;
+  }
+}

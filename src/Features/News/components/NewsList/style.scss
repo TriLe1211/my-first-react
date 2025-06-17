@@ -1,0 +1,11 @@
+.news-list {
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 0;
+  list-style-type: none;
+  margin: 0 20px;
+
+  &>li {
+    padding: 0 20px;
+  }
+}
